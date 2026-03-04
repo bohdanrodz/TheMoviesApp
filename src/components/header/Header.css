@@ -1,0 +1,37 @@
+header {
+    height: 8vh;
+    display: flex;
+    border-bottom: 1px solid #E5E7EB;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 114px;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+    gap: 42px;
+    font-size: 20px;
+    font-family: Bahnschrift, Arial, Helvetica, sans-serif;
+}
+
+.menu-link a {
+    display: flex;
+    align-items: center;
+    color: #111827;
+    text-decoration: none;
+    font-weight: 600;
+    padding: 8px 10px;
+    border-radius: 10px;
+    transition: 0.15s ease;
+}
+
+.menu-link a:hover {
+    transition: 0.15s ease;
+    background: #EEF2FF;
+}
+
+.menu-link a:hover, .menu-link a:active {
+    color: #4F46E5;
+}
+

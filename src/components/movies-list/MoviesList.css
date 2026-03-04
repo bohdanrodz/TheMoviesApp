@@ -1,0 +1,13 @@
+.movies-container {
+    width: 90vw;
+    margin: 0 auto;
+    border-left: 1px solid #E5E7EB;
+    border-right: 1px solid #E5E7EB;
+    min-height: 84vh;
+    max-height: 3600px;
+    padding: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    background: transparent;
+}
